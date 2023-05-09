@@ -34,8 +34,7 @@ const option = {
 mongoose.set("strictQuery", false);
 
 // SET DB CONNECTION STRING
-const uri =
-  "mongodb+srv://ydla:ydla@ydla.5pxhcii.mongodb.net/resume?retryWrites=true&w=majority";
+const uri = "inputYourOwnDatabaseConnectionStringHere";
 
 // CONNECT TO DB
 const connectDb = async () => {
